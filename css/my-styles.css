@@ -9,6 +9,11 @@ ol .list-indent {
 .navbar-fixed-bottom{
     min-height: 20px;
 }
+.navbar-custom {
+  background-color: #f2e7e1;
+  border-color: #e7e7e7;
+}
+
 .navbar-fixed-bottom .container {
 text-align: center;
 }
@@ -21,6 +26,7 @@ text-align: center;
 }
 body {
   padding-bottom: 20px;
+  background-color: #e1f0e7;
 }
 .column-label-HTML {
   background-color: #b9e5dd;
@@ -58,4 +64,18 @@ body {
 }
 .width-350 {
    width: 350px;
+}
+.silks {
+  font-family: fantasy;
+  font-size: 140%;
+  font-weight: bold;
+}
+#myCarousel-lg {
+  margin-top: 20px;
+}
+.carousel-indicators li {
+    border: 2px solid #f2b907;
+}
+.carousel-indicators .active {
+  background-color: black;
 }
