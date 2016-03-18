@@ -1,0 +1,18 @@
+ ul .list-indent {
+  margin: 1em;
+}
+
+ol .list-indent {
+  margin: 1em;
+  font-family: serif;
+}
+.navbar-fixed-bottom{
+    min-height: 20px;
+}
+.navbar-fixed-bottom .container {
+text-align: center;
+}
+
+body {
+  padding-bottom: 20px;
+}
