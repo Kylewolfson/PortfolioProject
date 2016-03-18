@@ -13,6 +13,40 @@ ol .list-indent {
 text-align: center;
 }
 
+.float-right {
+  float: right;
+}
+.full-height {
+  min-height: 100%;
+}
 body {
   padding-bottom: 20px;
+}
+.column-label-HTML {
+  background-color: #b9e5dd;
+  border:2px solid #41e5c8;
+}
+.column-label-upcoming {
+  background-color: #c880e1;
+  border:2px solid #b426e5;
+}
+@media (min-width: 768px)
+{
+  .right-border {
+    border-right: 2px solid black;
+  }
+}
+@media (min-width: 768px)
+{
+  .left-border {
+    border-left: 2px solid black;
+  }
+}
+.row{
+    overflow: hidden;
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
